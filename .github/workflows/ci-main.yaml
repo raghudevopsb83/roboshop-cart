@@ -9,6 +9,6 @@ jobs:
     uses: raghudevopsb83/github-actions-reusable/.github/workflows/ci-main.yaml@main
     with:
       component_name: cart
-
+      app_type: nodejs
 
 
