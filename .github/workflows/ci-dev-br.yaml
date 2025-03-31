@@ -1,0 +1,13 @@
+name: Cart CI - Dev BRanch
+on:
+  push:
+    branches:
+      - "!main"
+jobs:
+  common:
+    uses: raghudevopsb83/github-actions-reusable/.github/workflows/ci-dev-br.yaml@main
+    with:
+      component_name: cart
+
+
+
